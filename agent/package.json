@@ -7,7 +7,7 @@
     "node": ">=24"
   },
   "scripts": {
-    "start": "node cli.mjs",
+    "start": "node init && node cli.mjs",
     "test": "node --test test/*.test.mjs",
     "messages": "node imessage.mjs",
     "telegram": "node telegram.mjs"

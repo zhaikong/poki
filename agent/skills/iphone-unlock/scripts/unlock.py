@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Send one authorized iPhone passcode attempt. The caller holds the Poki lease."""
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import getpass
 import json
